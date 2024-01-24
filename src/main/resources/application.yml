@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/testdasturi
+    username: postgres
+    password: Diyor2412
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+
