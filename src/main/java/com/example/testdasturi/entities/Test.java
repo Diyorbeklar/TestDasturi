@@ -3,7 +3,7 @@ package com.example.testdasturi.entities;
 import jakarta.persistence.*;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
-
+@Builder
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor

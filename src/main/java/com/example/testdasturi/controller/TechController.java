@@ -7,7 +7,6 @@ import com.example.testdasturi.entities.Tech;
 import com.example.testdasturi.service.TechServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController

@@ -1,5 +1,6 @@
 package com.example.testdasturi.entities;
 
+import com.example.testdasturi.dto.requestDTO.TechRequestDTO;
 import com.example.testdasturi.dto.responseDTO.TechDTO;
 import jakarta.persistence.*;
 import lombok.*;
@@ -22,11 +23,5 @@ public class Tech {
     String name;
     @OneToMany(mappedBy = "tech")
     private List<Test> list;
-
-    public TechDTO toDTO(){
-        return new TechDTO(this.name);
-    }
-
-
 
 }
