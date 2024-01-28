@@ -1,12 +1,9 @@
 package com.example.testdasturi.entities;
 
 import jakarta.persistence.*;
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 import lombok.experimental.FieldDefaults;
-
+@Builder
 @Entity
 @Data
 @AllArgsConstructor
